@@ -1,5 +1,5 @@
 <manifest>
-        <remote fetch="." name="seL4"/>
+        <remote fetch="https://github.com/" name="seL4"/>
         <default remote="seL4" revision="master"/>
 
         <project name="seL4.git" remote="seL4" path="kernel"/>
