@@ -1,5 +1,7 @@
 <manifest>
+	<remote fetch="https://github.com/seL4" name="SEL4PROJ"/>
         <remote fetch="https://github.com/seL4" name="seL4"/>
+	<remote fetch="https://github.com/tass-belgium" name="picotcp"/>
         <default remote="seL4" revision="master"/>
 
         <project name="seL4.git" remote="seL4" path="kernel"/>
@@ -7,7 +9,12 @@
                 <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt"/>
                 <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
         </project>
-        <project name="seL4_libs.git" remote="seL4" path="projects/seL4_libs"/>
+	<project dest-branch="master" name="camkes.git" path="projects/camkes" revision="3b1afd3f32417a02c0912819657e53a659e47737" upstream="master">
+    		<linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
+  	</project>
+        <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="1d340cdc861a6f4b86eb2d2ff8105a2a7731c62b" upstream="master"/>
+	<project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="cc8ba39fe8dad3b495d4b1184d1bb02f557de5e7" upstream="master"/>
+	<project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
+	<project name="seL4_libs.git" remote="seL4" path="projects/seL4_libs"/>
         <project name="util_libs.git" remote="seL4" path="projects/util_libs"/>
-        <project name="camkes.git" remote="seL4" path="projects/all"/>
 </manifest>
