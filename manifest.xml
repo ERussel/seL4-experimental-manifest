@@ -1,4 +1,4 @@
-i<manifest>
+<manifest>
 	<remote fetch="https://github.com/SEL4PROJ" name="SEL4PROJ"/>
         <remote fetch="https://github.com/seL4" name="seL4"/>
 	<remote fetch="https://github.com/tass-belgium" name="picotcp"/>
