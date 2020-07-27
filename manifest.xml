@@ -28,5 +28,6 @@
     <project dest-branch="fix-32bit" name="riscv-pk" path="tools/riscv-pk" remote="SEL4PROJ" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
 	<project name="seL4_libs.git" remote="seL4" path="projects/seL4_libs"/>
     <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="SEL4PROJ" revision="1967d540d7e8f665da94f6815dd042c322b52b21" upstream="master"/>
+    <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="SEL4PROJ" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
     <project name="util_libs.git" remote="seL4" path="projects/util_libs"/>
 </manifest>
