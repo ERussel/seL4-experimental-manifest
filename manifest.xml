@@ -10,6 +10,9 @@
     <project name="seL4_tools.git" remote="seL4" path="tools">
         <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     </project>
+    <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="d3b211c263954948e6d8befc28d69930b94c708e" upstream="master">
+        <linkfile dest="README.md" src="docs/index.md"/>
+    </project>
     <project name="seL4-experimental.git" remote="experimental" path="projects/app" upstream="master">
         <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     </project>
