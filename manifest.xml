@@ -21,7 +21,7 @@
   <project dest-branch="master" name="rumprun.git" path="tools/rumprun" remote="SEL4PROJ" revision="e307da61f7d2204e14da8fbe19c630373265d123" upstream="master"/>
     <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
     <project dest-branch="master" name="cogent" path="tools/cogent" remote="nicta" revision="51502cd819bedb6150c467da9ecf2bbd76adb84c" upstream="master"/>
-    <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="1d340cdc861a6f4b86eb2d2ff8105a2a7731c62b" upstream="master"/>
+    <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="89fcd8ddee159d25fc87eb0718a06ec50d8c32d2" upstream="master"/>
 	<project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="SEL4PROJ" revision="cc8ba39fe8dad3b495d4b1184d1bb02f557de5e7" upstream="master"/>
 	<project dest-branch="refs/tags/v1.7.0" name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0"/>
     <project dest-branch="master" name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
